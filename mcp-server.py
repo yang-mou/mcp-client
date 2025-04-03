@@ -13,8 +13,7 @@ mcp = FastMCP("WeatherServer")
 
 # OpenWeather API 配置
 OPENWEATHER_API_BASE = "https://api.openweathermap.org/data/2.5/weather"
-# API_KEY = os.getenv("OPENWEATHER_KEY")  # 从环境变量中读取API_KEY
-API_KEY = "dec6d39700d862772d9c7d5975237155"
+API_KEY = os.getenv("OPENWEATHER_KEY")  # 从环境变量中读取API_KEY
 USER_AGENT = "weather-app/1.0"
 
 
